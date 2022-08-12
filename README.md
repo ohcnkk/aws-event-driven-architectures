@@ -17,3 +17,8 @@ access_key = "ASIAX7LKNIP47"
 secret_key = "/EQyp3+Tvo6h72CBISRgeC9AUW"
 token      = "IQoJb3JpZ2luX2VjEAAaCXVzLWVhc3QtMS"
 ```
+
+```shell
+terraform plan
+terraform apply
+```
