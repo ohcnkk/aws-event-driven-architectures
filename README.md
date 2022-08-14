@@ -16,6 +16,7 @@ region     = "us-west-1"
 access_key = "ASIAX7LKNIP47"
 secret_key = "/EQyp3+Tvo6h72CBISRgeC9AUW"
 token      = "IQoJb3JpZ2luX2VjEAAaCXVzLWVhc3QtMS"
+apigw_url  = "https://j4.execute-api.us-east-1.amazonaws.com/Prod/"
 ```
 
 ```shell

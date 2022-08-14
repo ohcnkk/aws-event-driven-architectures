@@ -5,6 +5,7 @@ provider "registry.terraform.io/hashicorp/aws" {
   version = "4.25.0"
   hashes = [
     "h1:EVNvuFgSV/Vaer3SOE0cZcc2yR0xNBRWfaJ4vo+oNB8=",
+    "h1:JyQAQ3YrE4utVAQsLGy1LjMbAzzRI/X2XsrY7CFBGxw=",
     "zh:51fddc33f289108f60c2de78537f758ae913b2614187abfc3f560f9dd277bc1a",
     "zh:5a2bfa0725a8941f12e775eb9c44582ec237a664321a740d8283e9b56452f2ad",
     "zh:6ca73a9f11c2a9ff8f55433c00a12c1b69c22131251cb0698d32c682229b1233",

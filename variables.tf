@@ -9,3 +9,5 @@ variable "secret_key" {}
 variable "token" {
   default = null
 }
+
+variable "apigw_url" {}

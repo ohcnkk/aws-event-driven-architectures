@@ -1,5 +1,5 @@
 resource "aws_iam_role" "invoke_sfn" {
-  name_prefix = "Amazon_EventBridge_Invoke_Api_Destination"
+  name = "aws-event-driven-architecture-eventbridge-invoke-sfn"
 
   assume_role_policy = <<EOF
 {
@@ -17,7 +17,7 @@ resource "aws_iam_role" "invoke_sfn" {
 EOF
 
   inline_policy {
-    name = "Amazon_EventBridge_Invoke_Api_Destination"
+    name = "aws-event-driven-architecture-eventbridge-invoke-sfn"
 
     policy = <<EOF
 {
@@ -39,7 +39,7 @@ EOF
 }
 
 resource "aws_iam_role" "invoke_api" {
-  name_prefix = "Amazon_EventBridge_Invoke_Api_Destination"
+  name = "aws-event-driven-architecture-eventbridge-invoke-api"
 
   assume_role_policy = <<EOF
 {
@@ -57,7 +57,7 @@ resource "aws_iam_role" "invoke_api" {
 EOF
 
   inline_policy {
-    name = "Amazon_EventBridge_Invoke_Api_Destination"
+    name = "aws-event-driven-architecture-eventbridge-invoke-api"
 
     policy = <<EOF
 {
